@@ -1,0 +1,48 @@
+.banner-section {
+  background-color: var(--bg-color-even);
+  margin-top: 80px;
+  position: relative;
+  min-height: 300px;
+  z-index: 1;
+}
+.banner-section .main-head {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 0;
+  position: absolute;
+  width: 100%;
+  right: 0%;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  top: 50%;
+  z-index: 9;
+  left: 0;
+  z-index: 1;
+}
+.banner-section .main-head h1 {
+  font-size: 2rem;
+  color: #e51e61;
+  text-align: center;
+  line-height: 1.3;
+  font-family: 'Montserrat-Medium';
+  margin-bottom: 0px;
+}
+.banner-section .vector-portfolio {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  min-height: 300px;
+}
+.banner-section .vector-portfolio .first-child {
+  position: absolute;
+  left: auto;
+  bottom: 0;
+  max-height: 100px;
+}
+.banner-section .vector-portfolio .second-child {
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+  max-height: 155px;
+}

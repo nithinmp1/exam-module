@@ -1,0 +1,219 @@
+.section {
+    padding: 60px 0px;
+    position: relative;
+    overflow: hidden;
+  }
+  .section .main-head {
+    font-size: 2.25rem;
+    font-family: 'Montserrat-Bold';
+    line-height: 1.4;
+    margin-bottom: 40px;
+  }
+  .section .hglight {
+    color: #e51e61;
+    display: inline-block;
+    width: 100%;
+  }
+  .qustn-section {
+    background: var(--bg-color-odd);
+  }
+  .qustn-section .nair-wrap {
+    background: #fff;
+    position: relative;
+    max-width: 80%;
+    margin: auto;
+    border-radius: 20px;
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.01);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.01);
+  }
+  .qustn-section .nair-wrap .head-lines {
+    padding: 10px 15px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #e51e61;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .qustn-section .nair-wrap .head-lines h4 {
+    font-size: 1rem;
+    color: #fff;
+    text-align: left;
+    line-height: 1.3;
+    font-family: 'Montserrat-Medium';
+    margin-bottom: 0px;
+  }
+  .qustn-section .nair-wrap .head-lines .count span {
+    color: #ebd6d6;
+    font-size: 13px;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid #ebd6d6;
+  }
+  .qustn-section .nair-wrap .head-lines .count span:before {
+    color: #ebd6d6;
+    font-size: 0.9rem;
+    padding-right: 5px;
+    vertical-align: middle;
+    font-family: "boxicons" !important;
+  }
+  .qustn-section .nair-wrap .head-lines .count span.time {
+    position: relative;
+  }
+  .qustn-section .nair-wrap .head-lines .count span.time::before {
+    content: "\ee75";
+  }
+  .qustn-section .nair-wrap .head-lines select {
+    border: 0px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: var(--bg-color-odd);
+    font-size: 13px;
+  }
+  .qustn-section .nair-wrap .head-lines select:focus {
+    outline: none;
+  }
+  .qustn-section .marksheetscreen {
+    padding: 20px;
+  }
+  .qustn-section .marksheetscreen .mark-list {
+    margin: 0px;
+    padding: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+  }
+  .qustn-section .marksheetscreen .mark-list li {
+    display: inline-block;
+    color: #151515;
+    font-size: 0.9rem;
+    margin: 5px;
+    font-family: 'Montserrat-Medium';
+  }
+  .qustn-section .marksheetscreen .mark-list li.pass {
+    background-color: #008000;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 13px;
+    padding: 5px 8px;
+  }
+  .qustn-section .marksheetscreen .mark-list li.fail {
+    background-color: #ff0800;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #fff;
+    padding: 5px 8px;
+  }
+  .qustn-section .marksheetscreen .qstnpnt {
+    padding: 30px;
+  }
+  .qustn-section .marksheetscreen .qstnpnt .numric {
+    padding-right: 5px;
+  }
+  .qustn-section .marksheetscreen .questionList {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  .qustn-section .marksheetscreen .questionList li {
+    padding: 5px;
+    font-size: 13px;
+    display: inline-block;
+    margin: 0px;
+    color: #6a7587;
+  }
+  .qustn-section .marksheetscreen .questionList li input[type="checkbox"] {
+    position: relative;
+    border: 2px solid #6a7587;
+    border-radius: 2px;
+    background: none;
+    cursor: pointer;
+    line-height: 0;
+    margin: 0 0.5em 0 0;
+    outline: 0;
+    padding: 0 !important;
+    vertical-align: sub;
+    height: 18px;
+    width: 18px;
+    font-size: 14px;
+    color: #6a7587;
+    opacity: 0.5;
+  }
+  .qustn-section .marksheetscreen .questionList li input[type="checkbox"]::before {
+    content: "";
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    width: 6px;
+    height: 10px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    margin: -1px -1px 0 -1px;
+    -webkit-transform: rotate(45deg) translate(-50%, -50%);
+    transform: rotate(45deg) translate(-50%, -50%);
+    z-index: 2;
+  }
+  .qustn-section .marksheetscreen .questionList li input[type="checkbox"]:checked {
+    background-color: #e51e61;
+    border: 2px solid #e51e61;
+    opacity: 1;
+  }
+  .qustn-section .marksheetscreen .questionList li label {
+    padding: 0px;
+    font-size: 13px;
+    margin: 0px;
+    color: #6a7587;
+  }
+  .qustn-section .foot-lines {
+    padding: 10px 15px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #e51e61;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .qustn-section .foot-lines .pagination-list {
+    padding: 0px;
+    margin: 0px auto;
+    list-style: none;
+  }
+  .qustn-section .foot-lines .pagination-list li {
+    display: inline-block;
+  }
+  .qustn-section .foot-lines .pagination-list li a {
+    height: 35px;
+    width: 35px;
+    margin: 0 3px;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+    font-size: 13px;
+    color: #fff;
+  }
+  .qustn-section .foot-lines .pagination-list li.active a,
+  .qustn-section .foot-lines .pagination-list li:hover a {
+    text-decoration: none;
+    color: #fff;
+    background: -webkit-linear-gradient(0deg, #d90000 0%, #a50029 100%);
+  }

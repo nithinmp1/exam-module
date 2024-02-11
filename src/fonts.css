@@ -1,0 +1,69 @@
+  @font-face {
+    font-family: 'Montserrat-Thin';
+    src: local('Montserrat-Thin'), url('./fonts/Montserrat/Montserrat-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Montserrat-Extralight';
+    src: local('Montserrat-Extralight'), url('./fonts/Montserrat/Montserrat-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Montserrat-Light';
+    src: local('Montserrat-Light'), url('./fonts/Montserrat/Montserrat-Light.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Montserrat-Medium';
+    src: local('Montserrat-Medium'), url('./fonts/Montserrat/Montserrat-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Montserrat-Semibold';
+    src: local('Montserrat-Semibold'), url('./fonts/Montserrat/Montserrat-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Montserrat-Bold';
+    src: local('Montserrat-Bold'), url('./fonts/Montserrat/Montserrat-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Montserrat-Extrabold';
+    src: local('Montserrat-Extrabold'), url('./fonts/Montserrat/Montserrat-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Montserrat-Black';
+    src: local('Montserrat-Black'), url('./fonts/Montserrat/Montserrat-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  /* @font-face {
+    font-family: 'Caveat-Bold';
+    src: local('Caveat-Bold'), url('./fonts/Montserrat/Caveat-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: swap;
+  } */
+
+  /* @font-face {
+    font-family: 'Caveat-SemiBold';
+    src: local('Caveat-SemiBold'), url('./fonts/Montserrat/Caveat-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: swap;
+  } */
